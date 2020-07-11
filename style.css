@@ -73,7 +73,7 @@ p {
 .email:hover {
   padding: 15px 35px;
   background-color: rgb(225, 10, 143);
-  clear: both;
+  cursor: pointer;
 }
 footer {
   text-align: center;
