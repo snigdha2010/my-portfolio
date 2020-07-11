@@ -14,7 +14,7 @@ p {
 }
 .about-me {
   display: flex;
-  background-image: url("/images/header-bg.png");
+  background-image: url("images/header-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
@@ -33,12 +33,12 @@ p {
 }
 .biography {
   display: flex;
-  background-image: url("/images/biography-bg.png");
+  background-image: url("images/biography-bg.png");
   background-size: cover;
   height: 600px;
 }
 .latest-work {
-  background-image: url("/images/latest-work-bg.png");
+  background-image: url("images/latest-work-bg.png");
   background-size: cover;
   height: 400px;
 }
@@ -58,7 +58,7 @@ p {
 
 .review {
   text-align: center;
-  background-image: url("/images/footer-bg.png");
+  background-image: url("images/footer-bg.png");
   background-size: cover;
   height: 600px;
   padding-top: 150px;
