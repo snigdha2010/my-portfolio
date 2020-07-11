@@ -1,0 +1,82 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+}
+a {
+  padding: 10px 20px;
+  color: white;
+  background-color: rgb(225, 10, 143);
+  border-radius: 4px;
+  text-decoration: none;
+}
+p {
+  color: rgb(148, 128, 128);
+}
+.about-me {
+  display: flex;
+  background-image: url("/images/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+#name {
+  color: rgb(225, 10, 143);
+}
+.text-section {
+  margin: 100px 80px 0px;
+  width: 46%;
+}
+.about-me img,
+.biography img {
+  width: 80%;
+  height: 550px;
+}
+.biography {
+  display: flex;
+  background-image: url("/images/biography-bg.png");
+  background-size: cover;
+  height: 600px;
+}
+.latest-work {
+  background-image: url("/images/latest-work-bg.png");
+  background-size: cover;
+  height: 400px;
+}
+.latest-work h2 {
+  text-align: center;
+}
+.latest-work img {
+  width: 300px;
+  padding: 5px;
+  margin: 50px;
+  float: left;
+  cursor: pointer;
+}
+.latest-work img:hover {
+  width: 350px;
+}
+
+.review {
+  text-align: center;
+  background-image: url("/images/footer-bg.png");
+  background-size: cover;
+  height: 600px;
+  padding-top: 150px;
+}
+.email {
+  padding: 20px 30px;
+  background-color: rgb(225, 10, 143);
+  color: white;
+  border-radius: 5px;
+  display: inline-block;
+}
+.email:hover {
+  padding: 15px 35px;
+  background-color: rgb(225, 10, 143);
+  clear: both;
+}
+footer {
+  text-align: center;
+  color: gray;
+  font-size: 14px;
+}
